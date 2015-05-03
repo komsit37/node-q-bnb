@@ -1,0 +1,29 @@
+{
+  "name": "node-q",
+  "version": "1.0.0",
+  "description": "my test node-q app",
+  "main": "http.js",
+  "dependencies": {
+    "assert-plus": "^0.1.5",
+    "express": "^4.12.3",
+    "node-q": "^0.11.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-bg-shell": "^2.3.1",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-express-server": "^0.5.1",
+    "grunt-shell": "^1.1.2",
+    "jshint-stylish": "latest",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
